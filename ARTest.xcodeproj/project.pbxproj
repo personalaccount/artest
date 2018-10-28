@@ -14,6 +14,8 @@
 		84A8EE96218620BA00A3F94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8EE94218620BA00A3F94F /* LaunchScreen.storyboard */; };
 		84A8EEA1218620BA00A3F94F /* ARTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8EEA0218620BA00A3F94F /* ARTestTests.swift */; };
 		84A8EEAC218620BA00A3F94F /* ARTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8EEAB218620BA00A3F94F /* ARTestUITests.swift */; };
+		84A8EEBC218620F700A3F94F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8EEBA218620F700A3F94F /* SceneKit.framework */; };
+		84A8EEBD218620F700A3F94F /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8EEBB218620F700A3F94F /* ARKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		84A8EEA7218620BA00A3F94F /* ARTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8EEAB218620BA00A3F94F /* ARTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTestUITests.swift; sourceTree = "<group>"; };
 		84A8EEAD218620BA00A3F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A8EEBA218620F700A3F94F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		84A8EEBB218620F700A3F94F /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A8EEBC218620F700A3F94F /* SceneKit.framework in Frameworks */,
+				84A8EEBD218620F700A3F94F /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				84A8EE9F218620BA00A3F94F /* ARTestTests */,
 				84A8EEAA218620BA00A3F94F /* ARTestUITests */,
 				84A8EE89218620B800A3F94F /* Products */,
+				84A8EEB9218620F700A3F94F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,15 @@
 				84A8EEAD218620BA00A3F94F /* Info.plist */,
 			);
 			path = ARTestUITests;
+			sourceTree = "<group>";
+		};
+		84A8EEB9218620F700A3F94F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A8EEBB218620F700A3F94F /* ARKit.framework */,
+				84A8EEBA218620F700A3F94F /* SceneKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
